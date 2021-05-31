@@ -1,2 +1,2 @@
 # super-spock
-Competitive Programming
+HackerEarth Competitive Programming
