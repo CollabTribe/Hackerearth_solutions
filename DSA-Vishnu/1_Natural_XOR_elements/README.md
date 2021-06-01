@@ -1,4 +1,4 @@
-Natural XOR elements
+Natural XOR elements [IT'S RECOMMENDED TO VIEW THIS README IN RAW FORMAT]
 
 Problem
 You are given an integer . To solve the problem, you must find the minimum number of elements that must be removed from the set S = {1,2,........,N} such that the bitwise XOR of the remaining elements is 0.
