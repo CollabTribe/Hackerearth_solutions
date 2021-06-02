@@ -1,12 +1,13 @@
-Natural XOR elements [IT'S RECOMMENDED TO VIEW THIS README IN RAW FORMAT]
+# ***Natural XOR elements*** [IT'S RECOMMENDED TO VIEW THIS README IN RAW FORMAT]
 
-Problem
+### Problem
 You are given an integer . To solve the problem, you must find the minimum number of elements that must be removed from the set S = {1,2,........,N} such that the bitwise XOR of the remaining elements is 0.
 
-Input format
+#### Input format
 The first line contains an integer t(1<=t<=10^5) representing the number of test cases.
 The first and only line of each test case contains an integer N(1<=N<=10^9) representing the number presented to you.
-Output format
+
+#### Output format
 
 For each test case, print a single line.
 
@@ -48,9 +49,11 @@ After removing 4 we are left with 1,2 and 3 whose XOR is 0.
 
 
 
-SOLUTION EXPLANATION:
+### SOLUTION EXPLANATION:
+
 This solution is based on the property of Bitwise XOR, XOR of (0,1,2,3) = 0, XOR of(4,5,6,7)=0, .......
-Binary Representation of numbers:
+
+##### Binary Representation of numbers:
 0 - 0000
 1 - 0001
 2 - 0010
@@ -61,7 +64,7 @@ Binary Representation of numbers:
 7 - 0111
 8 - 1000
 
-XOR Operations:
+##### XOR Operations:
 A   B       Q
 ---------------
 0   0       0
@@ -84,7 +87,7 @@ Similarly, we can see that the output will be repeating itself if we make a seri
 9   - 1                  | 1            N%4=1
 10  - 2                  | 10 1
 
-Generalizing:
+##### Generalizing:
 1   - 1 1       N%4=1
 2   - 2 N 1     N%4=2
 3   - 0         N%4=3
