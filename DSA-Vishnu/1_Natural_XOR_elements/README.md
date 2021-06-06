@@ -75,14 +75,15 @@ This solution is based on the property of Bitwise XOR, XOR of (0,1,2,3) = 0, XOR
 - 8 - 1000
 
 ##### XOR Operations:
-A   B       Q
----------------
-0   0       0
-0   1       1
-1   0       1
-1   1       0
 
-for - number of elements | we print
+> A   B       Q
+> ---------------
+> 0   0       0
+> 0   1       1
+> 1   0       1
+> 1   1       0
+
+#### for - number of elements | we print
 
 - 1   - 1                  | 1            N%4=1
 - 2   - 2                  | 2 1          N%4=2
